@@ -8,9 +8,9 @@ make
 make install
 ```
 
-# Dependency
-dbus-1
-tinyalsa
+# Dependencies
+ libdbus 
+ tinyalsa 
 
 # Instalation on Mobian guide
 ```
