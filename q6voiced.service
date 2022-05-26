@@ -3,7 +3,6 @@ Description=Enable q6voice audio when call is performed with oFono or ModemManag
 After=dbus.service
 
 [Service]
-#Type=Simple
 # Note: q6voice_card/q6voice_device need to be set in /etc/q6voiced.conf
 EnvironmentFile=/etc/q6voiced.conf
 ExecStart=/usr/bin/q6voiced hw:${q6voice_card},${q6voice_device}
