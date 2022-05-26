@@ -9,6 +9,7 @@ make install
 ```
 
 # Dependency
+dbus-1
 tinyalsa
 
 # Instalation on Mobian guide
