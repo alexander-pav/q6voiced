@@ -1,7 +1,8 @@
 
 Forked from https://gitlab.com/postmarketOS/q6voiced
 
-# Instalation
+# Building
+build and install 
 ```
 make 
 make install
