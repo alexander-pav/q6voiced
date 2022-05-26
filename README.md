@@ -20,7 +20,7 @@ make
 sudo make install
 sudo ldconfig
 
-git clone https://github.com/alxpvl/q6voiced.git
+git clone https://github.com/alexander-pav/q6voiced.git
 cd q6voiced
 make
 sudo make install
