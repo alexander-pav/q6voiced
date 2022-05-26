@@ -1,13 +1,17 @@
-# Forked from https://gitlab.com/postmarketOS/q6voiced
+
+Forked from https://gitlab.com/postmarketOS/q6voiced
 
 # Instalation
+```
 make 
 make install
+```
 
 # Dependency
 tinyalsa
 
 # Instalation on Mobian guide
+```
 apt install libdbus-1-dev 
 
 git clone https://github.com/tinyalsa/tinyalsa.git
@@ -20,7 +24,7 @@ git clone https://github.com/alxpvl/q6voiced.git
 cd q6voiced
 make
 sudo make install
-
+```
 
 # q6voiced
 q6voiced is a userspace daemon for the QDSP6 voice call audio driver.
